@@ -32,6 +32,6 @@ jobs:
       run: mvn test
 
     - name: Publish to GitHub Packages Apache Maven
-      run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
+      run: mvn deploy -s C:/Users/dines/actions-runner/actions-runner-win-x64-2.294.0/PineLabs/java-practice/java-practice/settings.xml
       env:
         GITHUB_TOKEN: ${{ github.token }}
